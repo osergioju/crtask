@@ -1,6 +1,6 @@
 // frontend/src/service/api.js
 
-const API_BASE_URL = "http://localhost:3001/api";
+const API_BASE_URL = "https://backend-twilight-resonance-2866.fly.dev/";
 
 async function request(endpoint, options = {}) {
   const response = await fetch(`${API_BASE_URL}${endpoint}`, {
